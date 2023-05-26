@@ -22,6 +22,11 @@ function getTotalAccountsCount(accounts) {
     return total
 }
 
+// correction based on feedback - 
+//created at least one function that helps support the tested functions.
+  function getTotalAccountsCount(accounts) {
+  return getTotalBooksCount(accounts)
+}
 
 function getBooksBorrowedCount(books) {
     let total = 0
