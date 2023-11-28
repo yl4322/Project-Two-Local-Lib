@@ -14,7 +14,7 @@ function bookLinkTemplate(book, returned = false) {
     </li>
   `;
 }
-
+// function
 function bookDetailsTemplate(book, author) {
   return `
     <div class="card">
